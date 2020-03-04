@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find the precious!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="li_find">FindThePrecious.com</li>
+                <li class="li_fellows">Fellows</li>
+                <li class="li_contact">Contact us</li>
+            </ul>
+        </nav>
+        <section class="section1">
+        </section>
+        <section class="section_wanted_dead">
+            <h2 class="title_wanted_dead">Fellows wanted dead<span class="span_or_alive">(or alive if you want to eat them later)</span></h2>
+        </section>
+        <section class="section3">
+            <div class="section3div1"></div>
+            <div class="section3div2"></div>  
+            <div class="section3div3"></div>          
+        </section>
+        <hr>
+        <form>
+            <h2 class="contact_us">Contact us</h2>
+            <div class="form1">
+                <input type="email" placeholder="@">
+                <input type="text" placeholder="&#8962;">
+               
+                <select size="1" name="reason">
+                  <option selected>I have seen one of them !</option>
+                  <option>I know a guy who knows a guy who knows...</option>
+                  <option>I have intels</option>
+                  <option>I could sell all my family to get some money</option>
+                  <option>I am one of them :-)</option>
+                </select>
+                <textarea placeholder="Your message" cols="40" rows="10"></textarea>
+                <p class="container_send">
+                    <input class="send" type="submit" value="Send !" />
+                </p>
+            </div>
+        </form>
+        <footer>
+                <div class="footer_left">
+                    <div class="footer_left1">
+                        <div>About us</div>
+                        <div>Fellows</div>
+                        <div>Join our Army</div>
+                    </div>
+                    <div class="footer_left2">
+                        <div>FAQ</div>
+                        <div>Reward conditions</div>
+                        <div>Legal mentions</div>
+                    </div>
+                </div>
+                <div class="footer_right">
+                    <div>Sauron4ever.com</div>
+                    <div>Follow him also on twitter</div>
+                </div>
+        </footer>
+    </body>
+</html>
+ 
+
+
+
+<!-- CSS -->
+nav {
+    display: flex;
+    background-color: #4c4242;
+}
+ 
+ul {
+    margin: unset;
+    padding: unset;
+}
+ 
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    color : #e5d3d3;
+    font-size: 1rem;
+}
+ 
+.section1, .section3 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: #DAD3D3;
+ 
+}
+ 
+.title_wanted_dead {
+    display: flex;
+    justify-content: center;
+}
+ 
+span {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    align-items: center;
+    margin-left: 5px;
+}
+ 
+.section3 {
+    background-color: inherit;
+    justify-content: space-around;
+    height: 350px;
+}
+ 
+.section3div1, .section3div2, .section3div3 {
+    display: flex;
+    width: 30.33%;
+    background-color: #DAD3D3;
+}
+ 
+hr {
+    margin-top: 100px;
+}
+ 
+.contact_us {
+    display: flex;
+    justify-content: flex-start;
+}
+ 
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+input, select {
+    margin-bottom: 20px;
+    width: 70%;
+    height: 15px;
+    border: solid black 1px;
+}
+ 
+select {
+    height: 25px;
+    border: solid #c7c7bf 0.1px;
+}
+ 
+textarea {
+    width: 70%;
+    border: solid black 1px;
+}
+ 
+.P_input {
+    display: flex;
+    justify-content: center;
+}
+.container_send {
+    display: flex;
+    height: 20px;
+    justify-content: flex-end;
+    width: 70%;
+}
+ 
+.send {
+    width: 64px;
+    height: 31px;
+    background-color: #8f8f85;
+}
+ 
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c4242;
+    width: 100%;
+    height: 100px;
+    color: #e5d3d3;
+    margin-top: 20px;
+}
+ 
+.footer_left {
+    display: flex;
+    width: 400px;
+}
+ 
+.footer_left1 {
+    margin-left: 20px;
+}
+ 
+.footer_left2 {
+    margin-left: 150px;
+}
+.footer_right {
+    margin-right: 60px;
+}
+ 
+.footer_left1, .footer_left2, .footer_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ 
+.li_fellows, .li_contact {
+    font-size: 15px;
+}
+ 
+.li_fellows:hover, .li_contact:hover {
+    cursor: pointer;
+    background-color: #DAD3D3;
+    padding-top: 12px;
+    color: black;
+}
+ 
+@media screen and (max-width: 961px) {
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .section3div1, .section3div2, .section3div3 {
+        display: flex;
+        width: 70%;
+        background-color: #DAD3D3;
+        height: 22%;
+        padding: 15px;
+    }
+    .contact_us {
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 200px;
+    }
+    .footer_left {
+        display: flex;
+        width: 400px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_left1 {
+        margin: inherit;
+        align-items: center;
+    }
+    .footer_left2 {
+        margin: inherit;
+        align-items: center;
+}
+    }
+    .footer_right {
+        align-items: center;
+        margin: initial;
+    }
