@@ -1,0 +1,61 @@
+Last login: Wed Mar  4 19:08:06 on console
+You have new mail.
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+pc63:~ chloe$ ls
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+MacKeeper Backups
+Movies
+Music
+Pictures
+Public
+README.md
+bisounours
+bisounours.txt
+chloe.trottin@desim.com Creative Cloud Files
+chloe.trottin@gmail.com Creative Cloud Files
+lol
+loli
+patchwork
+test-1
+pc63:~ chloe$ ls Downloads
+11_19_UX_DESIGN_FORMATION.pptx	Git-it-Mac-x64.zip
+Git-it-Mac-x64			GitHub Desktop.app
+pc63:~ chloe$ ls Pictures
+Bibliothèque Photo Booth	Photothèque.photoslibrary
+Lightroom			com.naturalmotion.csrracingmac
+pc63:~ chloe$ pwd
+/Users/chloe
+pc63:~ chloe$ cd Pictures
+pc63:Pictures chloe$ pwd
+/Users/chloe/Pictures
+pc63:Pictures chloe$ cd ..
+pc63:~ chloe$ pwd
+/Users/chloe
+pc63:~ chloe$ cd ..
+pc63:Users chloe$ pwd
+/Users
+pc63:Users chloe$ cd ..
+pc63:/ chloe$ ls
+Applications	Volumes		home		usr
+Library		bin		opt		var
+Preboot		cores		private
+System		dev		sbin
+Users		etc		tmp
+pc63:/ chloe$ cd Users/chloe
+pc63:~ chloe$ pwd
+/Users/chloe
+pc63:~ chloe$ cd Pictures
+pc63:Pictures chloe$ cd
+pc63:~ chloe$ cd ~
+pc63:~ chloe$ pwd
+/Users/chloe
+pc63:~ chloe$ cd ~/Pictures
+pc63:Pictures chloe$ 
