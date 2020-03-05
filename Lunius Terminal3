@@ -1,0 +1,76 @@
+------------ php_france_2019.csv------------- 
+
+      97     111    3888 php_france_2019.csv
+      
+      
+
+------------ javascript_biarritz_toulouse.csv------------- 
+
+Agathe	Bazin	Toulouse	France	2017	JavaScript
+Maurice	Munoz	Toulouse	France	2017	JavaScript
+Mich√®le	Traore	Toulouse	France	2017	JavaScript
+Aur√©lie	Becker	Toulouse	France	2018	JavaScript
+Timoth√©e	Henry	Toulouse	France	2018	JavaScript
+Th√©odore	Gerard	Toulouse	France	2018	JavaScript
+Maryse	Allain	Toulouse	France	2018	JavaScript
+Philippe	Paris	Toulouse	France	2018	JavaScript
+Henri	Guilbert	Toulouse	France	2018	JavaScript
+Olivier	Dufour	Toulouse	France	2018	JavaScript
+Alexandre	Da Silva	Toulouse	France	2019	JavaScript
+Mathilde	Descamps	Toulouse	France	2019	JavaScript
+C√©line	Fabre	Toulouse	France	2019	JavaScript
+Raymond	Bouvet	Toulouse	France	2019	JavaScript
+Danielle	Lecomte	Toulouse	France	2019	JavaScript
+No√´l	Noel	Toulouse	France	2019	JavaScript
+Danielle	Perrin	Toulouse	France	2019	JavaScript
+√âric	Meunier	Toulouse	France	2019	JavaScript
+Claude	Samson	Toulouse	France	2019	JavaScript
+Emmanuelle	Mercier	Biarritz	France	2017	JavaScript
+Thierry	Alexandre	Biarritz	France	2017	JavaScript
+√âdith	Turpin	Biarritz	France	2017	JavaScript
+Chantal	Caron	Biarritz	France	2017	JavaScript
+P√©n√©lope	Paris	Biarritz	France	2017	JavaScript
+Christelle	Vallet	Biarritz	France	2017	JavaScript
+Daniel	Roy	Biarritz	France	2017	JavaScript
+Th√©odore	Regnier	Biarritz	France	2018	JavaScript
+Benjamin	Tanguy	Biarritz	France	2018	JavaScript
+Arthur	Bruneau	Biarritz	France	2018	JavaScript
+S√©bastien	Ferreira	Biarritz	France	2018	JavaScript
+Charlotte	Roche	Biarritz	France	2018	JavaScript
+Colette	Bouvier	Biarritz	France	2018	JavaScript
+Alfred	Da Silva	Biarritz	France	2018	JavaScript
+Vincent	Sanchez	Biarritz	France	2019	JavaScript
+Yves	Marie	Biarritz	France	2019	JavaScript
+Alphonse	Leleu	Biarritz	France	2019	JavaScript
+Laurence	Lemaire	Biarritz	France	2019	JavaScript
+Marcel	Olivier	Biarritz	France	2019	JavaScript
+Victor	Lopez	Biarritz	France	2019	JavaScript
+Michel	David	Biarritz	France	2019	JavaScript
+Th√©odore	Bousquet	Biarritz	France	2019	JavaScript
+Andr√©e	Berthelot	Biarritz	France	2019	JavaScript
+L√©on	Jacquet	Biarritz	France	2019	JavaScript
+Laetitia	Schneider	Biarritz	France	2019	JavaScript
+Th√©r√®se	Guyot	Biarritz	France	2019	JavaScript
+
+
+------------ history.txt------------- 
+
+  501  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv > wilders.csv
+  502  grep "France;2019;PHP" wilders.csv > php_france_2019.csv
+  503  grep "France;2019;PHP" wilders.csv > php_france_2019.csv
+  504  wc php_france_2019.csv > php_france_2019.csv
+  505  grep "France;2019;PHP" wilders.csv > php_france_2019.csv | wc -l
+  506  wc php_france_2019.csv
+  507  wc php_france_2019.csv | wc -l
+  508  wc php_france_2019.csv | wc 
+  509  wc php_france_2019.csv > php_france_20198.csv
+  510  grep Toulouse wilders.csv > Toulouse.csv
+  511  grep JavaScript wilders.csv > Toulouse_Javascript.csv
+  512  grep Biarritz wilders.csv > Biarritz.csv
+  513  grep JavaScript wilders.csv > Biarritz_Javascript.csv
+  514  grep JavaScript Toulouse.csv > Toulouse_Javascript.csv
+  515  grep JavaScript Biarritz.csv > Biarritz_Javascript.csv
+  516  cat Toulouse_Javascript.csv Biarritz_Javascript.csv > javascript_biarritz_toulouse.csv
+  517  history > history.txt | tail -n 20
+  518  history | tail -n 20 > history2.txt
+  519  history | tail -n 19 > history3.txt
