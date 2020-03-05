@@ -16,3 +16,701 @@
 (END)
 
 -----> results History <-----
+
+Last login: Wed Mar  4 19:43:24 on ttys000
+You have new mail.
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+pc63:~ chloe$ cd unzip planets.zip
+-bash: cd: unzip: No such file or directory
+pc63:~ chloe$ cd ~/Documents/planets
+pc63:planets chloe$ mkdir planets/real planets/fictional planets/inhabited
+mkdir: planets: No such file or directory
+mkdir: planets: No such file or directory
+mkdir: planets: No such file or directory
+pc63:planets chloe$ cd ~/Documents/planets
+pc63:planets chloe$ pwd
+/Users/chloe/Documents/planets
+pc63:planets chloe$ mkdir real
+pc63:planets chloe$ pwd
+/Users/chloe/Documents/planets
+pc63:planets chloe$ ls
+arrakis.jpeg	earth.jpeg	mercury.jpeg	real		venus.jpeg
+coruscant.jpeg	jupiter.jpeg	neptune.jpeg	saturn.jpeg
+cybertron.jpeg	mars.jpeg	pluto.jpeg	uranus.jpeg
+pc63:planets chloe$ mkdir planets/real
+pc63:~ chloe$ cd ~/Documents/planets
+pc63:planets chloe$ mkdir real
+mkdir: real: File exists
+pc63:planets chloe$ mkdir fictional
+pc63:planets chloe$ mkdir inhabited
+pc63:planets chloe$ pwd
+/Users/chloe/Documents/planets
+pc63:planets chloe$ cd ~/Documents/planets
+pc63:planets chloe$ ls
+arrakis.jpeg	earth.jpeg	jupiter.jpeg	neptune.jpeg	saturn.jpeg
+coruscant.jpeg	fictional	mars.jpeg	pluto.jpeg	uranus.jpeg
+cybertron.jpeg	inhabited	mercury.jpeg	real		venus.jpeg
+pc63:planets chloe$ cd ~/Documents/planets/real
+pc63:real chloe$ mkdir telluric
+pc63:real chloe$ mkdir gas-giants
+pc63:real chloe$ mkfir dwarf-planets
+-bash: mkfir: command not found
+pc63:real chloe$ mkdir dwarf-planets
+pc63:real chloe$ cd ..
+pc63:planets chloe$ pwd
+/Users/chloe/Documents/planets
+pc63:planets chloe$ ls
+arrakis.jpeg	earth.jpeg	jupiter.jpeg	neptune.jpeg	saturn.jpeg
+coruscant.jpeg	fictional	mars.jpeg	pluto.jpeg	uranus.jpeg
+cybertron.jpeg	inhabited	mercury.jpeg	real		venus.jpeg
+pc63:planets chloe$ cd cd ~/Documents/planets/real
+-bash: cd: cd: No such file or directory
+pc63:planets chloe$ ls
+arrakis.jpeg	earth.jpeg	jupiter.jpeg	neptune.jpeg	saturn.jpeg
+coruscant.jpeg	fictional	mars.jpeg	pluto.jpeg	uranus.jpeg
+cybertron.jpeg	inhabited	mercury.jpeg	real		venus.jpeg
+pc63:planets chloe$ mv earth.jpeg real
+pc63:planets chloe$ mv jupiter.jpeg real
+pc63:planets chloe$ mv mars.jpeg real
+pc63:planets chloe$ mv mercury.jpeg real
+pc63:planets chloe$ mv neptune.jpeg real
+pc63:planets chloe$ mv pluto.jpeg real
+pc63:planets chloe$ mv saturn.jpeg real
+pc63:planets chloe$ mv uranus.jpeg real
+pc63:planets chloe$ mv venus.jpeg real
+pc63:planets chloe$ mv arrakis.jpeg fictional
+pc63:planets chloe$ mv coruscant.jpeg fictional
+pc63:planets chloe$ mv cybertron.jpeg fictional
+pc63:planets chloe$ cd cd ~/Documents/planets/real
+-bash: cd: cd: No such file or directory
+pc63:planets chloe$ ls
+fictional	inhabited	real
+pc63:planets chloe$ cd ~/real
+-bash: cd: /Users/chloe/real: No such file or directory
+pc63:planets chloe$ cp earth.jpeg inhabited
+cp: earth.jpeg: No such file or directory
+pc63:planets chloe$ cd
+pc63:~ chloe$ pwd
+/Users/chloe
+pc63:~ chloe$ cd ~/Documents/planets/real
+pc63:real chloe$ cp earth.jpeg inhabited
+pc63:real chloe$ cp arrakis.jpeg inhabited
+cp: arrakis.jpeg: No such file or directory
+pc63:real chloe$ cd ~/Documents/planets/fictional
+pc63:fictional chloe$ cp arrakis.jpeg inhabited
+pc63:fictional chloe$ cp coruscant.jpeg inhabited
+pc63:fictional chloe$ cp cyberton.jpeg inhabited
+cp: cyberton.jpeg: No such file or directory
+pc63:fictional chloe$ cp cybertron inhabited
+cp: cybertron: No such file or directory
+pc63:fictional chloe$ cp cybertron.jpeg inhabited
+pc63:fictional chloe$ ls
+arrakis.jpeg	coruscant.jpeg	cybertron.jpeg	inhabited
+pc63:fictional chloe$ cp earth.jpeg inhabited/
+cp: inhabited is not a directory
+pc63:fictional chloe$ cp earth.jpeg inhabited/
+cp: inhabited is not a directory
+pc63:fictional chloe$ pwd
+/Users/chloe/Documents/planets/fictional
+pc63:fictional chloe$ cp arrakis.jpeg inhabited/
+cp: directory inhabited does not exist
+pc63:fictional chloe$ cp arrakis.jpeg /inhabited/
+cp: directory /inhabited does not exist
+pc63:fictional chloe$ cp arrakis.jpeg planets/inhabited
+cp: planets/inhabited: No such file or directory
+pc63:fictional chloe$ cp arrakis.jpeg planets
+pc63:fictional chloe$ cd ~/Documents/planets/real
+pc63:real chloe$ cd ~/Documents/planets
+pc63:planets chloe$ ls
+fictional	inhabited	real
+pc63:planets chloe$ cd ~/Documents/planets/real
+pc63:real chloe$ cp earth.jpeg real
+pc63:real chloe$ ls
+dwarf-planets	jupiter.jpeg	neptune.jpeg	saturn.jpeg	venus.jpeg
+earth.jpeg	mars.jpeg	pluto.jpeg	telluric
+gas-giants	mercury.jpeg	real		uranus.jpeg
+pc63:real chloe$ cp earth real/
+cp: real is not a directory
+pc63:real chloe$ cd ~/Documents/planets/inhabited
+pc63:inhabited chloe$ ls
+pc63:inhabited chloe$ cp earth.jpg inhabited/
+cp: directory inhabited does not exist
+pc63:inhabited chloe$ cd ~/Documents/planets/inhabited
+pc63:inhabited chloe$ ls
+pc63:inhabited chloe$ cd ~/Documents/planets/real
+pc63:real chloe$ ls
+dwarf-planets	jupiter.jpeg	neptune.jpeg	telluric
+earth.jpeg	mars.jpeg	pluto.jpeg	uranus.jpeg
+gas-giants	mercury.jpeg	saturn.jpeg	venus.jpeg
+pc63:real chloe$ cp earth.jpeg earth2.jpeg
+pc63:real chloe$ ls
+dwarf-planets	gas-giants	mercury.jpeg	saturn.jpeg	venus.jpeg
+earth.jpeg	jupiter.jpeg	neptune.jpeg	telluric
+earth2.jpeg	mars.jpeg	pluto.jpeg	uranus.jpeg
+pc63:real chloe$ cp/pwd
+-bash: cp/pwd: No such file or directory
+pc63:real chloe$ pwd
+/Users/chloe/Documents/planets/real
+pc63:real chloe$ cp /Users/chloe/Documents/planets/real/earth.jpeg /Users/chloe/Documents/planets/inhabited
+pc63:real chloe$ /Users/chloe/Documents/planets/fictional/arrakis.jpeg Users/chloe/Documents/planets/inhabited
+-bash: /Users/chloe/Documents/planets/fictional/arrakis.jpeg: Permission denied
+pc63:real chloe$ cd ~/Documents/planets/inhabited
+pc63:inhabited chloe$ ls
+earth.jpeg
+pc63:inhabited chloe$ cd ~/Documents/planets/fictional
+pc63:fictional chloe$ ls
+arrakis.jpeg	coruscant.jpeg	cybertron.jpeg	planets
+pc63:fictional chloe$ pwd
+/Users/chloe/Documents/planets/fictional
+pc63:fictional chloe$ cp /Users/chloe/Documents/planets/fictional/arrakis.jpeg /Users/chloe/Documents/planets/inhabited
+pc63:fictional chloe$ cp /Users/chloe/Documents/planets/fictional/coruscant.jpeg /Users/chloe/Documents/planets/inhabited
+pc63:fictional chloe$ /Users/chloe/Documents/planets/fictional/cybertron.jpeg /Users/chloe/Documents/planets/inhabited
+-bash: /Users/chloe/Documents/planets/fictional/cybertron.jpeg: Permission denied
+pc63:fictional chloe$ cd ~/Documents/planets/fictional
+pc63:fictional chloe$ ls
+arrakis.jpeg	coruscant.jpeg	cybertron.jpeg
+pc63:fictional chloe$ /Users/chloe/Documents/planets/fictional/cybertron.jpeg /Users/chloe/Documents/planets/inhabited
+-bash: /Users/chloe/Documents/planets/fictional/cybertron.jpeg: Permission denied
+pc63:fictional chloe$ cd ~/Documents/planets/fictional
+pc63:fictional chloe$ cp /Users/chloe/Documents/planets/fictional/cybertron.jpeg /Users/chloe/Documents/planets/inhabited
+pc63:fictional chloe$ rm -r real
+rm: real: No such file or directory
+pc63:fictional chloe$ ~/Documents/planets/real
+-bash: /Users/chloe/Documents/planets/real: is a directory
+pc63:fictional chloe$ ls
+arrakis.jpeg	coruscant.jpeg	cybertron.jpeg
+pc63:fictional chloe$ ~/Documents/planets/real
+-bash: /Users/chloe/Documents/planets/real: is a directory
+pc63:fictional chloe$ pwd
+/Users/chloe/Documents/planets/fictional
+pc63:fictional chloe$ ~/Documents/planets/
+-bash: /Users/chloe/Documents/planets/: is a directory
+pc63:fictional chloe$ ls
+arrakis.jpeg	coruscant.jpeg	cybertron.jpeg
+pc63:fictional chloe$ cd ..
+pc63:planets chloe$ pwd
+/Users/chloe/Documents/planets
+pc63:planets chloe$ cd ~real
+-bash: cd: ~real: No such file or directory
+pc63:planets chloe$ pwd
+/Users/chloe/Documents/planets
+pc63:planets chloe$ rm -r real
+pc63:planets chloe$ find
+usage: find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
+       find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]
+pc63:planets chloe$ tree
+-bash: tree: command not found
+pc63:planets chloe$ find
+usage: find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
+       find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]
+pc63:planets chloe$ cd
+pc63:~ chloe$ pwd
+/Users/chloe
+pc63:~ chloe$ find
+usage: find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
+       find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]
+pc63:~ chloe$ history
+   92  cd arm
+   93  ~/Documents/chalet
+   94  cd armo
+   95  ~/Documents/chalet
+   96  touh armoires
+   97  cd ~/Documents
+   98  ls
+   99   cd~/Documents/chalet 
+  100  cd ~/Documents/chalet
+  101  ls
+  102  cd ~/Documents/chalet
+  103  cd arm
+  104  cd etageres/
+  105  cd armo
+  106  cd ~/Documents/chalet
+  107  cd arm
+  108  cd /armoire
+  109  cd /armoires
+  110  cd ~/Documents/chalet/armoire
+  111  ..
+  112  cd ~/Documents/chalet/armoire
+  113  cd..
+  114  cd ~/Documents/chalet/armoire
+  115  cd ..
+  116  cp fauteuill fauteuil2
+  117  ls
+  118  cd ~/Documents/chalet/
+  119  fauteuil2
+  120  cd ~/Documents/chalet/
+  121  mkir fauteuil2
+  122  cd ~/Documents/chalet/
+  123  mkdir fauteuil2
+  124  cd ~/Documents/chalet/
+  125  ls
+  126  mkir fauteuil2
+  127  cd ~/Documents/chalet/
+  128  mkdir bibelots
+  129  cd ~/Documents/chalet/armoire
+  130  mv ../bibelots
+  131  cp ../etageres
+  132  cd ~/Documents/chalet
+  133  ls
+  134  cd ~/Documents
+  135  ls
+  136  find chalet
+  137  cd /documents
+  138  cd /document
+  139  ls -la
+  140  mkdir hello-world
+  141  cd hello-world
+  142  git init
+  143  git status
+  144  cd hello-world
+  145  cd hello-world
+  146  git status
+  147  git add readme.txt
+  148  git commit -m "Creation fichier readme"
+  149  git diff
+  150  cd hello-world
+  151  cd hello-world
+  152  git diff
+  153  git commit
+  154  cd hello-world
+  155  cd document
+  156  mkdir test
+  157  mkdir "salut" > lol.txt
+  158  git status
+  159  git commit
+  160  mkdir "salut" > test.txt
+  161  git init
+  162  git status
+  163  git add test.txt
+  164  git commit
+  165  cd text.txt
+  166  cd /text.txt
+  167  cd test.txt
+  168  cd bonjour
+  169  cd /brueau
+  170  cd/ documents
+  171  cd /desktop
+  172  cd /document
+  173  cd /documents
+  174  mkdir bonjour
+  175  echo "bonjourbonjour" > bonjour.txt
+  176  git status
+  177  mk dire test-hello
+  178  cd/documents
+  179  cd hello-world
+  180  get init
+  181  git init
+  182  git status
+  183  git add test.text
+  184  git diff
+  185  mkdir hello-world
+  186  cd hello-world
+  187  git init
+  188  cd hello-world
+  189  mkdir "bonjour" > readme.txt
+  190  git status
+  191  git add readme.txt
+  192  git commit -m "creation fichier"
+  193  echo "hello lol" > readme.txt
+  194  git status
+  195  git add readme.txt
+  196  git commit
+  197  cd hello-world
+  198  git status
+  199  git commit
+  200  mkdir bisounours
+  201  cd /bisounours
+  202  echo "coucou" > bisounours.txt
+  203  git add bisounours.txt
+  204  cd bisounours
+  205  get initi
+  206  cd /bisounours
+  207  git init
+  208  echo "coucou lol" > bisounours.txt
+  209  git commit
+  210  cd /bisounours
+  211  git status
+  212  git add bisounours.txt
+  213  git commit -m "crea fichier"
+  214  git config --global user.name <chloe-tt>
+  215  git config --globall user.name
+  216  cd /documents
+  217  cd /bisounours
+  218  cd /test-1
+  219  git init
+  220  git status
+  221  cd /test-1
+  222  git status
+  223  cd /document
+  224  cd /test-1
+  225  echo mkdir test2
+  226  git remote add origin https://github.com/chloe-tt/test-1.git
+  227  git remote --version
+  228  git remote -v
+  229  git push origin master
+  230  cd /test-1
+  231  git push origin master
+  232  git remote add origin https://github.com/chloe-tt/test-1.git
+  233  git push -u origin master
+  234  echo "# test-1" >> README.md
+  235  git init
+  236  git add README.md
+  237  git commit -m "first commit"
+  238  git remote add origin https://github.com/chloe-tt/test-1.git
+  239  git push -u origin master
+  240  echo "# test-1" >> README.md
+  241  git init
+  242  git add README.md
+  243  git commit -m "first commit"
+  244  git remote add origin https://github.com/chloe-tt/test-1.git
+  245  git push -u origin master
+  246  echo "# test-1" >> README.md
+  247  git init
+  248  git add README.md
+  249  git commit -m "first commit"
+  250  git remote add origin https://github.com/chloe-tt/test-1.git
+  251  git push -u origin master
+  252  cd..
+  253  cd ..
+  254  git clone http://jlord.github.io/patchwork
+  255  cd patchwork
+  256  git remot -v
+  257  git remote -v
+  258  mkdir test6
+  259  git clone http://jlord.us/patchwork/
+  260   cd patchwork
+  261  mkdir test7
+  262  cd test6
+  263  git clone <https://github.com/chloe-tt/patchwork.gi
+  264  git cd test6
+  265  cd ..
+  266  cd /test6
+  267  git clone https://github.com/chloe-tt/patchwork.git
+  268  cd patchwork
+  269  git remote -v
+  270  git remote add upstream http://github.com/jlord/patchwork.git
+  271  cd ..
+  272  git clone https://github.com/chloe-tt/sharezza-social.git
+  273  git push sharezza-social branch
+  274  git push sharezza-social master
+  275  git psuh --help'
+  276  cd sharezza-social
+  277  git push https://github.com/chloe-tt/sharezza-social.git master
+  278  git push sharezza-social master
+  279  cd sharezza-social
+  280  cd ..
+  281  cd /sharezza-social
+  282  git status
+  283  git init
+  284  git stats
+  285  git status
+  286   cd /sharezza-social
+  287  cd /sharezza-social
+  288  mkdir lol
+  289  cd /index.html
+  290  cd /sharezza-social
+  291  git clone https://github.com/chloe-tt/sharezza-social-2.git
+  292  git push sharezza-social-2 master
+  293  git push index.html master
+  294  cd /sharezza-social-2
+  295  git init
+  296  cd index.html
+  297  git pull sharezza-social-2 master
+  298  cd ..
+  299  cd sharezza-social-2
+  300  git pull sharezza-social-2 https://github.com/chloe-tt/sharezza-social-2.git
+  301  cd sharezza-social-2
+  302  git push sharezza-social-2 master
+  303  cd /sharezza-social-2
+  304  git push sharezza-social-2 master
+  305  $
+  306  cd sharezza-social-2
+  307  git remote add sharezza-social-2 https://github.com/chloe-tt/sharezza-social-2.git
+  308  git push sharezza-social-2 master
+  309  git push sharezza-social-2 master
+  310  push index.html master
+  311  git push index.html branch
+  312  git push sharezza-social-2 master
+  313  cd sharezza-social-2
+  314  echo "text blbla" > index2.html
+  315  push sharezza-social-2 master
+  316  git init
+  317  push sharezza-social-2 master
+  318  git push sharezza-social-2 master
+  319  clear
+  320  cd /sharezza-social-2
+  321  git commit -m "add new file"
+  322  git push sharezza-social-2 master
+  323  clear
+  324  cd sharezza-social-2
+  325  git status
+  326  git add index.html
+  327  git commit -m "update index.html"
+  328  git add sharezza-social-2
+  329  cd sharezza-social-2
+  330  git diff
+  331  cd sharezza-social-2
+  332  ls
+  333  cd index.html
+  334  git diff
+  335  clear
+  336  git remote add origin https://github.com/chloe-tt/sharezza-social-3.git
+  337  git clone https://github.com/chloe-tt/sharezza-social-3.git
+  338  git remote add sharezza-social-3 https://github.com/chloe-tt/sharezza-social-3.git
+  339  cd ..
+  340  cd rm-r sharezza-social
+  341  cd chloe
+  342  ls
+  343  rm -r sharezza-social
+  344  cd chloe
+  345  ls
+  346  git rm -r bisounours
+  347  git commit -m"remove bisounours"
+  348  cd chloe
+  349  ls
+  350  cd documents
+  351  mkdir sharezza-social-4
+  352  git clone https://github.com/chloe-tt/sharezza-social-4.git
+  353  cd documents
+  354  ls
+  355  cd sharezza-social-4
+  356  git commit -m"title modification"
+  357  cd documents
+  358  ls
+  359  git commit -m 'title modif"
+  360  clear
+  361  cd documents
+  362  cd sharezza-social-4
+  363  git push origin master
+  364  cd documents
+  365  cd sharezza-social-4
+  366  clear
+  367  cd documents
+  368  ls
+  369  cd documents
+  370  cd sharezza-social-4
+  371  git fetch
+  372  git push origin master
+  373  git push sharezza-social-4 master
+  374  git init
+  375  git push sharezza-social-4 master
+  376  git remote add sharezza-social-4 https://github.com/chloe-tt/sharezza-social-4.git
+  377  git push sharezza-social-4 master
+  378  cd documents
+  379  cd sharezza-social-4
+  380  git status
+  381  git add file index.html
+  382  git add index.html
+  383  git pull sharezza-social-4 https://github.com/chloe-tt/sharezza-social-4.git
+  384  cd documents
+  385  cd hello-chloe
+  386  git init
+  387  git remote origin https://github.com/chloe-tt/hello-chloe.git
+  388  cd /documents
+  389  ls
+  390  ls -a
+  391  ls Images
+  392  ls ./Images
+  393  cd /Images
+  394  cd chloe
+  395  ls
+  396  ls Pictures
+  397  ls/c/chloe/chloe
+  398  ls /home
+  399  ls ..
+  400  ls ..
+  401  ls /bin
+  402  ls -l /bin
+  403  cd chloe/document
+  404  cd /chloe/document
+  405  ls /document
+  406  ls
+  407  pwd
+  408  ls
+  409  ls Downloads
+  410  ls Pictures
+  411  pwd
+  412  cd Pictures
+  413  pwd
+  414  cd ..
+  415  pwd
+  416  cd ..
+  417  pwd
+  418  cd ..
+  419  ls
+  420  cd Users/chloe
+  421  pwd
+  422  cd Pictures
+  423  cd
+  424  cd ~
+  425  pwd
+  426  cd ~/Pictures
+  427   cd ~/Documents
+  428  cd
+  429  pwd
+  430  mkdir quetes
+  431  mkdir -p quetes/shell/legumes quetes/shell/fruits
+  432  mkdir quetes/shell/effacez-moi quetes/shell/delete-me
+  433  ls quetes/shell
+  434  rmdir quetes/shell/effacez-moi quetes/shell/delete-me
+  435  cd ..
+  436  ls
+  437  ls
+  438  ls /documents
+  439  ls /Documents
+  440  cd quetes/shell
+  441  cd quetes
+  442  cd ~/quetes
+  443  cd ~/quetes/shell
+  444  touch pomme
+  445  touch poire
+  446  touch carotte chou-rave chou-fleur courgette
+  447  ls
+  448  ls -l ~/.bashrc
+  449  touch ~/.bashrc
+  450  ls -l ~/.bashrc
+  451  cp pomme banane
+  452  cp pomme fuits/orange
+  453  ls ; ls fruits
+  454  cp po* banane fruits/
+  455  ls fruits
+  456  cp -R fruit copie-de-fruits
+  457  cp -R fruits copie-de-fruits
+  458  cp -R fruits copie-de-fruits /tmp/
+  459  find
+  460  cd ~/Documents
+  461  find
+  462  rm po* banane
+  463  cd ~/fruits
+  464  cd fruits
+  465  rm -r copie-de-fruit
+  466  ls ; ls fruits
+  467  mv carotte chou* courgette legumes/
+  468  mv fruits/orange fruits/pamplemousse
+  469  mv legumes/courgette fruits/kiwi
+  470  clear
+  471  ~/quetes/shell
+  472  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  473  unzip planets.zip
+  474  pwd
+  475  unzip planets.zip
+  476  cd unzip planets.zip
+  477  cd ~/Documents/planets
+  478  mkdir planets/real planets/fictional planets/inhabited
+  479  cd ~/Documents/planets
+  480  pwd
+  481  mkdir real
+  482  pwd
+  483  ls
+  484  mkdir planets/real
+  485  cd
+  486  ls
+  487  cd ~/Documents/planets
+  488  mkdir real
+  489  mkdir fictional
+  490  mkdir inhabited
+  491  pwd
+  492  cd ~/Documents/planets
+  493  ls
+  494  cd ~/Documents/planets/real
+  495  mkdir telluric
+  496  mkdir gas-giants
+  497  mkfir dwarf-planets
+  498  mkdir dwarf-planets
+  499  cd ..
+  500  pwd
+  501  ls
+  502  cd cd ~/Documents/planets/real
+  503  ls
+  504  mv earth.jpeg real
+  505  mv jupiter.jpeg ; mars real
+  506  mv jupiter.jpeg real
+  507  mv mars.jpeg real
+  508  mv mercury.jpeg real
+  509  mv neptune.jpeg real
+  510  mv pluto.jpeg real
+  511  mv saturn.jpeg real
+  512  mv uranus.jpeg real
+  513  mv venus.jpeg real
+  514  mv arrakis.jpeg fictional
+  515  mv coruscant.jpeg fictional
+  516  mv cybertron.jpeg fictional
+  517  cd cd ~/Documents/planets/real
+  518  ls
+  519  cd ~/real
+  520  cp earth.jpeg inhabited
+  521  cd
+  522  pwd
+  523  cd ~/Documents/planets/real
+  524  cp earth.jpeg inhabited
+  525  cp arrakis.jpeg inhabited
+  526  cd ~/Documents/planets/fictional
+  527  cp arrakis.jpeg inhabited
+  528  cp coruscant.jpeg inhabited
+  529  cp cyberton.jpeg inhabited
+  530  cp cybertron inhabited
+  531  cp cybertron.jpeg inhabited
+  532  ls
+  533  cp earth.jpeg inhabited/
+  534  cp earth.jpeg inhabited/
+  535  pwd
+  536  cp arrakis.jpeg inhabited/
+  537  cp arrakis.jpeg /inhabited/
+  538  cp arrakis.jpeg planets/inhabited
+  539  cp arrakis.jpeg planets
+  540  cd ~/Documents/planets/real
+  541  cd ~/Documents/planets
+  542  ls
+  543  cd ~/Documents/planets/real
+  544  cp earth.jpeg real
+  545  ls
+  546  cp earth real/
+  547  cd ~/Documents/planets/inhabited
+  548  ls
+  549  cp earth.jpg inhabited/
+  550  cd ~/Documents/planets/inhabited
+  551  ls
+  552  cd ~/Documents/planets/real
+  553  ls
+  554  cp earth.jpeg earth2.jpeg
+  555  ls
+  556  cp/pwd
+  557  pwd
+  558  cp /Users/chloe/Documents/planets/real/earth.jpeg /Users/chloe/Documents/planets/inhabited
+  559  /Users/chloe/Documents/planets/fictional/arrakis.jpeg Users/chloe/Documents/planets/inhabited
+  560  cd ~/Documents/planets/inhabited
+  561  ls
+  562  cd ~/Documents/planets/fictional
+  563  ls
+  564  pwd
+  565  cp /Users/chloe/Documents/planets/fictional/arrakis.jpeg /Users/chloe/Documents/planets/inhabited
+  566  cp /Users/chloe/Documents/planets/fictional/coruscant.jpeg /Users/chloe/Documents/planets/inhabited
+  567  /Users/chloe/Documents/planets/fictional/cybertron.jpeg /Users/chloe/Documents/planets/inhabited
+  568  cd ~/Documents/planets/fictional
+  569  ls
+  570  /Users/chloe/Documents/planets/fictional/cybertron.jpeg /Users/chloe/Documents/planets/inhabited
+  571  cd ~/Documents/planets/fictional
+  572  cp /Users/chloe/Documents/planets/fictional/cybertron.jpeg /Users/chloe/Documents/planets/inhabited
+  573  rm -r real
+  574  ~/Documents/planets/real
+  575  ls
+  576  ~/Documents/planets/real
+  577  pwd
+  578  ~/Documents/planets/
+  579  ls
+  580  cd ..
+  581  pwd
+  582  cd ~real
+  583  pwd
+  584  rm -r real
+  585  find
+  586  tree
+  587  find
+  588  cd
+  589  pwd
+  590  find
+  591  history
+pc63:~ chloe$ 
