@@ -22,30 +22,6 @@ arrakis.jpeg	earth.jpeg	mercury.jpeg	real		venus.jpeg
 coruscant.jpeg	jupiter.jpeg	neptune.jpeg	saturn.jpeg
 cybertron.jpeg	mars.jpeg	pluto.jpeg	uranus.jpeg
 pc63:planets chloe$ mkdir planets/real
-mkdir: planets: No such file or directory
-pc63:planets chloe$ cd
-pc63:~ chloe$ ls
-Applications
-Creative Cloud Files
-Desktop
-Documents
-Downloads
-Library
-MacKeeper Backups
-Movies
-Music
-Pictures
-Public
-README.md
-bisounours
-bisounours.txt
-chloe.trottin@desim.com Creative Cloud Files
-chloe.trottin@gmail.com Creative Cloud Files
-lol
-loli
-patchwork
-quetes
-test-1
 pc63:~ chloe$ cd ~/Documents/planets
 pc63:planets chloe$ mkdir real
 mkdir: real: File exists
@@ -78,10 +54,6 @@ arrakis.jpeg	earth.jpeg	jupiter.jpeg	neptune.jpeg	saturn.jpeg
 coruscant.jpeg	fictional	mars.jpeg	pluto.jpeg	uranus.jpeg
 cybertron.jpeg	inhabited	mercury.jpeg	real		venus.jpeg
 pc63:planets chloe$ mv earth.jpeg real
-pc63:planets chloe$ mv jupiter.jpeg ; mars real
-usage: mv [-f | -i | -n] [-v] source target
-       mv [-f | -i | -n] [-v] source ... directory
--bash: mars: command not found
 pc63:planets chloe$ mv jupiter.jpeg real
 pc63:planets chloe$ mv mars.jpeg real
 pc63:planets chloe$ mv mercury.jpeg real
