@@ -8,3 +8,16 @@
     <script src="my-movie.js"></script>
   </body>
 </html>
+
+
+
+/* my-movie.js */
+
+// Define some variables
+const movieName = 'Le 5ème Element';
+const releaseDate = '1997';
+const directorName = 'Luc Besson'
+const chloeFavMovie =  movieName + ' réalisé par ' + directorName + ', est sorti en ' + releaseDate;
+
+// Display a popup
+alert(chloeFavMovie);
