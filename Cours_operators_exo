@@ -1,0 +1,54 @@
+//Subjet
+
+Create a program to perform the following operations :
+That is to say a class of 5 students: 
+John, 24 (const john = 24;)
+Barbara, 28 years old (const barbara = 28;) etc...
+Patrick, 32 years old
+Benjamin, 17 years old
+Sylvie, 36 years old
+Calculate the sum of the ages 
+Calculate the average age
+Calculate the age difference between the youngest and oldest student
+Show "true" or "false": the age difference is more than 10 years
+Show "true" or "false": John and Benjamin are under 25 years old
+Create a variable using the ternary operator which will have the following value : 
+If Sylvie's under 35: "There's no one over 35."
+If Sylvie's over 35: "At least one person is over 35."
+
+
+// solutions
+
+//sum age
+const john = 24;
+const barbara = 28;
+const patrick = 32;
+const benjamin = 17;
+const sylvie = 36; 
+
+console.log(john+barbara+patrick+benjamin+sylvie);
+
+
+//average age
+
+console.log((john+barbara+patrick+benjamin+sylvie)/5);
+
+//diff oldest and youngest
+console.log(sylvie - benjamin)
+
+//true or false if age diff is more than 10 years
+
+const ageDiff = 19
+let i = (ageDiff > 10)  ? console.log("true") : console.log("false")
+
+
+//Show "true" or "false": John and Benjamin are under 25 years old
+
+let j = (john < 25) && (benjamin < 25) ? console.log("true") : console.log("false")
+
+// Create a variable using the ternary operator which will have the following value : 
+//If Sylvie's under 35: "There's no one over 35."
+//If Sylvie's over 35: "At least one person is over 35."
+
+let z = (sylvie < 35) ? console.log("There's no one over 35.") : console.log("At least one person is over 35.")
+
