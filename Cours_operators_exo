@@ -52,3 +52,64 @@ let j = (john < 25) && (benjamin < 25) ? console.log("true") : console.log("fals
 
 let z = (sylvie < 35) ? console.log("There's no one over 35.") : console.log("At least one person is over 35.")
 
+
+//other way to do
+
+
+let ageArray = [24,28,32,17,36]
+
+const john = ageArray[0];
+const barbara = ageArray[1];
+const patrick = ageArray[2];
+const benjamin = ageArray[3];
+const sylvie = ageArray[4];
+
+
+const totalAge = (john + barbara + patrick + benjamin + sylvie);
+console.log(totalAge);
+
+console.log(totalAge/ageArray.length);
+
+//
+
+//total age
+const totalAge2 = () => ageArray[0] + ageArray[1] + ageArray[2] + ageArray[3] + ageArray[4]
+
+let sumOfAge = ageArray.reduce(totalAge2)
+console.log(sumOfAge);
+
+//moyenne d'age
+const averageAge = () => (sumOfAge) / ageArray.length
+console.log(averageAge(ageArray))
+
+// 
+
+const oldest = Math.max(john, barbara, patrick, benjamin, sylvie);
+const youngest = Math.min(john, barbara, patrick, benjamin, sylvie);
+
+const difference = oldest - youngest;
+
+
+const diff = () => {
+  const difference = oldest - youngest;
+  console.log(difference)
+}
+
+
+console.log(diff())
+
+let max = Math.max(...ageArray);
+let min = Math.min(...ageArray);
+console.log('Difference between older and youngest', max - min);
+
+// 
+
+let differenceAge2 = (difference > 10) ? true : false
+console.log(differenceAge2)
+
+let differenceAge3 = (john && benjamin < 25) ? true : false
+console.log(differenceAge3)
+
+let elder = (sylvie < 35) ? "There's no over 35." : "At least one person is over 35."
+console.log(elder)
+
