@@ -6,9 +6,8 @@ console.log(myarray)
 
 //inverser les position dans le tableau précédent
 
-myarray.reverse()
-console.log(myarray)
-
+const myarray2 = myarray.slice().reverse()
+console.log(myarray2)
 
 
 //3ème tableau = somme des deux précédents
