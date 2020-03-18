@@ -19,3 +19,17 @@ const arrayE = []
 
 arrayE.push(arrayC[0]+arrayD[0],arrayC[1]+arrayD[1], arrayC[2]+arrayD[2] )
 console.log(arrayE)
+
+ou
+
+for (let i=0; i < arrayC.length; i++) {
+  arrayE[i] =  arrayC[i] +  arrayD[i]
+  }
+  
+  
+ou
+
+for (let i=0; i < arrayC.length; i++) {
+  arrayE.push(arrayC[i]+arrayD[i])
+  }
+
