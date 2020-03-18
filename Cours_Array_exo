@@ -1,0 +1,22 @@
+//déclarer un tableau
+
+const myarray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+console.log(myarray)
+
+
+//inverser les position dans le tableau précédent
+
+myarray.reverse()
+console.log(myarray)
+
+
+
+//3ème tableau = somme des deux précédents
+const arrayC = [0, 5, 10]
+
+const arrayD = [5, 10, 15]
+
+const arrayE = []
+
+arrayE.push(arrayC[0]+arrayD[0],arrayC[1]+arrayD[1], arrayC[2]+arrayD[2] )
+console.log(arrayE)
