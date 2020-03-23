@@ -1,7 +1,7 @@
 ---Le constructeur de Person devra initialiser les attributs name et age à partir des paramètres qui lui sont passés:
 
 class Person(name, age) {
-  this. age = age;
+  this.age = age;
   this.name = name;
 } 
 
