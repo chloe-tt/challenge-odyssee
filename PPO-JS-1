@@ -11,6 +11,15 @@ class Person(name, age) {
 I am <name> et I am <age> years old  
 (remplacer <name> et <age> respectivement par les valeurs des attributs name et age).
 
+
+  get name(){
+      return this._name;
+    }
+  
+    get age(){
+      return this._age;
+    }
+
 tellMyName ()  {
   return (`I am ${this.name}`)
 }
