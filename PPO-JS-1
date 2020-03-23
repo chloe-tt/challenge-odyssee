@@ -1,0 +1,31 @@
+---Le constructeur de Person devra initialiser les attributs name et age à partir des paramètres qui lui sont passés:
+
+class Person(name, age) {
+  this. age = age;
+  this.name = name;
+} 
+
+
+
+---La classe Person disposera également de deux méthodes, tellMyName et tellMyAge, qui afficheront respectivement :
+I am <name> et I am <age> years old  
+(remplacer <name> et <age> respectivement par les valeurs des attributs name et age).
+
+tellMyName ()  {
+  return (`I am ${this.name}`)
+}
+
+tellMyAge ()  {
+ return (`I am ${this.age} years old`)
+}
+
+
+
+---Enfin, pour tester ta classe, tu devras instancier deux personnes ayant pour noms et âges respectifs:
+"John" et 40, "Mary" et 35, et appeler les méthodes tellMyName et tellMyAge sur chacune de ces instances de Person.
+
+const Person1 = new Person (Person #John, 40);
+const Person2 = new Person (Person #Mary, 35);
+
+consol.log (Person1.tellMyName(), Person1.tellMyAge())
+consol.log (Person2.tellMyName(), Person1.tellMyAge())
