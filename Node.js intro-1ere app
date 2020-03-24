@@ -4,14 +4,14 @@ process.stdin.setEncoding('utf8')
 console.log('How old are you ? ')
 process.stdin.on('data', (age) => {
         let currentYear = 2020;
-    if (age){
+ 
         if (age > 99 ){
           console.log(`You should be under 99 years old`)
         } else {
           const birthYear = currentYear - age;
           console.log(`You are born in ${birthYear}.`)
         }
-    }
-    }
+    
+  
   process.exit()
 })
