@@ -11,8 +11,7 @@ process.stdin.on('data', (age) => {
           const birthYear = currentYear - age;
           console.log(`You are born in ${birthYear}.`)
         }
-    }else {
-        console.log('Please type a number')
+    }
     }
   process.exit()
 })
