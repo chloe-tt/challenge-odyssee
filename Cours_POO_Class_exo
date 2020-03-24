@@ -1,0 +1,64 @@
+// Ecrire une classe Vehicle 
+//avec des attributs représentants la couleur et le nom du modèle
+// une méthode affichant le modèle et la couleur
+
+
+class Vehicle {
+  constructor(color, model) {
+    this.color = color;
+    this.model = model;
+  }
+
+  showModelAndColor() {
+    console.log(`Voici le modèle ${this.model} de couleur ${this.color}` )
+  }
+  
+};
+
+class Car extends Vehicle {
+
+  // Attributs
+  constructor(color, model, style) {
+      super(color, model);
+      this.style = style;
+  }
+
+  // Methods
+  showModelAndColor  () {
+      console.log (`This Vehicle is a ${this.model} and it's ${this.color}`)
+  }
+  displayStyle() {
+      console.log (`It's a ${this.style}`);
+  }
+};
+
+
+class Moto extends Vehicle {
+
+  // Attributs
+  constructor(color, model, style) {
+      super(color, model);
+      this.style = style;
+  }
+
+  // Methods
+  showModelAndColor  () {
+      console.log (`This Vehicle is a ${this.model} and it's ${this.color}`)
+  }
+  displayStyle() {
+      console.log (`It's a ${this.style}`);
+  }
+};
+
+
+const voiture = new Car('white', 'Peugeot', 'car');
+const moto = new Moto('white', 'BMW', 'moto');
+
+
+voiture.showModelAndColor();
+voiture.displayStyle();
+
+
+
+//Ecrire les classes Car et Moto qui héritent de Vehicle, 
+//ces classes doivent surcharger la méthode d’affichage pour spécifier si il s’agit d’une voiture ou d’une moto
