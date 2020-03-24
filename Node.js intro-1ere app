@@ -1,1 +1,18 @@
+process.stdin.resume()
+process.stdin.setEncoding('utf8')
 
+console.log('What\'s your age ? ')
+process.stdin.on('data', (age) => {
+        let currentYears = 2020;
+    if (!isNaN(age)){
+        if (age > 99 ){
+          console.log(`Please type a number below 99`)
+        } else {
+          const birthDate = currentYears - age;
+          console.log(`your birth year is ${birthDate}.`)
+        }
+    }else {
+        console.log('Please type a number')
+    }
+  process.exit()
+})
