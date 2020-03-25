@@ -13,13 +13,6 @@ I am <name> et I am <age> years old
 (remplacer <name> et <age> respectivement par les valeurs des attributs name et age).
 
 
-getName(){
-  return this._name;
-    }
-  
-getAge(){
-  return this._age;
-    }     
 
 tellMyName ()  {
   return (`I am ${this.name}`)
